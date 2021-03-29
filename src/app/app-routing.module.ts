@@ -7,11 +7,14 @@ import { PagenotfoundComponentComponent } from './pagenotfound-component/pagenot
 import { HeaderComponentComponent } from './header-component/header-component.component';
 import { LoginComponentComponent } from './login-component/login-component.component';
 import { SignupComponentComponent } from './signup-component/signup-component.component';
+import { ProfileComponentComponent } from './profile-component/profile-component.component';
 const routes: Routes = [
   {path :'',redirectTo:'/login',pathMatch:'full'},
     {path:'login',component:LoginComponentComponent},
     {path:'signup',component:SignupComponentComponent},
+    {path:'profile',component:ProfileComponentComponent},
     {path:'**',component:PagenotfoundComponentComponent}
+    
 
 ];
 
