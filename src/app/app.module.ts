@@ -8,6 +8,9 @@ import { LoginComponentComponent } from './login-component/login-component.compo
 import { SignupComponentComponent } from './signup-component/signup-component.component';
 import { PagenotfoundComponentComponent } from './pagenotfound-component/pagenotfound-component.component';
 import { ProfileComponentComponent } from './profile-component/profile-component.component';
+import { Header2ComponentComponent } from './header2-component/header2-component.component';
+import { AdminHomePageComponent } from './admin-home-page/admin-home-page.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -16,11 +19,14 @@ import { ProfileComponentComponent } from './profile-component/profile-component
     LoginComponentComponent,
     SignupComponentComponent,
     PagenotfoundComponentComponent,
-    ProfileComponentComponent
+    ProfileComponentComponent,
+    Header2ComponentComponent,
+    AdminHomePageComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
